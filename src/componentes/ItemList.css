@@ -1,0 +1,55 @@
+.ItemList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.Items {
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    border-radius: 15px; 
+    width: 300px; 
+    background-color: #fff; 
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.Items img {
+    width: auto;
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+.Items h2 {
+    font-size: 1.4rem;
+    margin: 10px 0;
+}
+
+.Items p {
+    font-size: 1rem;
+    margin: 10px;
+}
+
+.Items button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; 
+}
+
+.Items button:hover {
+    background-color: #218838;
+}
+
+.Items:hover {
+    transform: translateY(-5px);
+}
