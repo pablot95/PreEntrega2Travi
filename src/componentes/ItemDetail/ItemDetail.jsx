@@ -2,7 +2,7 @@ import React from 'react'
 import "./ItemDetail.css"
 
 
-const ItemDetail = ({id, nombre, precio, imagen, descripcion}) => {
+const ItemDetail = ({id, nombre, precio, imagen, descripcion, stock}) => {
 
 
   return (
@@ -12,6 +12,7 @@ const ItemDetail = ({id, nombre, precio, imagen, descripcion}) => {
         <p>${precio} </p>
         <p>ID: {id} </p>
         <p>{descripcion}</p>
+        <p>stock: {stock}</p>
 
 
     </div>

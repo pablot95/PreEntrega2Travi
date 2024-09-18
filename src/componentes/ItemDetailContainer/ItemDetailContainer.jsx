@@ -10,8 +10,7 @@ const ItemDetailContainer = () => {
     const {idItem} = useParams()
 
     useEffect(() => {
-      const idNumerico = Number(idItem);
-      getUnProducto(idNumerico) 
+      getUnProducto(idItem) 
         .then(respuesta => setProducto(respuesta));
     }, [idItem]);
 

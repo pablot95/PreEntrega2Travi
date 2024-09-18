@@ -3,7 +3,7 @@ const productos = [
         nombre: "Tumbler color blanco",
         precio: 25000,
         descripcion: "Tumbler termico 24 horas frio calor",
-        id: 1,
+        id: "1",
         imagen: "../Imagenes/TumblerHeader.png",
         idCat: "tumbler",
         stock: 10
@@ -12,7 +12,7 @@ const productos = [
         nombre: "Termo color negro",
         precio: 25000,
         descripcion: "Tumbler termico 24 horas frio calor",
-        id: 2,
+        id: "2",
         imagen: "../Imagenes/TermoHeader.png",
         idCat: "termo",
         stock: 10
@@ -21,7 +21,7 @@ const productos = [
         nombre: "Vasito color negro",
         precio: 25000,
         descripcion: "Tumbler termico 24 horas frio calor",
-        id: 3,
+        id: "3",
         imagen: "../Imagenes/VasitoHeader.png",
         idCat: "vasito",
         stock: 10
@@ -30,7 +30,7 @@ const productos = [
         nombre: "Botella color rosa",
         precio: 25000,
         descripcion: "Tumbler termico 24 horas frio calor",
-        id: 4,
+        id: "4",
         imagen: "../Imagenes/BotellitaHeader.png",
         idCat: "botella",
         stock: 10
