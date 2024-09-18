@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import { getUnProducto } from '../asyncmock'
+import { getUnProducto } from '../../asyncmock'
 import { useParams } from 'react-router-dom'
-import ItemDetail from './ItemDetail'
+import ItemDetail from '../ItemDetail/ItemDetail'
 
 const ItemDetailContainer = () => {
 

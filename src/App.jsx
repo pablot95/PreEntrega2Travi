@@ -1,9 +1,10 @@
 import React from 'react'
-import NavBar from './componentes/NavBar'
-import ItemListContainer from './componentes/ItemListContainer'
 import "./App.css"
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import ItemDetailContainer from './componentes/ItemdetailContainer';
+import ItemListContainer from './componentes/ItemListContainer/ItemListContainer';
+import ItemDetailContainer from './componentes/ItemDetailContainer/ItemDetailContainer';
+import NavBar from './componentes/NavBar/NavBar';
+
 
 const App = () => {
   return (

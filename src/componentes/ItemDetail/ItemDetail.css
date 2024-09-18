@@ -1,0 +1,21 @@
+.contenedorItem{
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    border-radius: 15px; 
+    width: 1000px; 
+    background-color: #fff; 
+    text-align: center; 
+    transition: transform 0.2s ease-in-out;
+    margin-left: 14rem;
+    margin-top: 100px;
+}
+
+
+.contenedorItem:hover{
+    transform: translateY(-5px);
+}
+
+.contenedorItem img{
+    width: 35vw;
+}

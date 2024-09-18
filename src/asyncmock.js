@@ -4,7 +4,7 @@ const productos = [
         precio: 25000,
         descripcion: "Tumbler termico 24 horas frio calor",
         id: 1,
-        imagen: "src/componentes/Imagenes/TumblerHeader.png",
+        imagen: "../Imagenes/TumblerHeader.png",
         idCat: "tumbler",
         stock: 10
     },
@@ -13,7 +13,7 @@ const productos = [
         precio: 25000,
         descripcion: "Tumbler termico 24 horas frio calor",
         id: 2,
-        imagen: "src/componentes/Imagenes/TermoHeader.png",
+        imagen: "../Imagenes/TermoHeader.png",
         idCat: "termo",
         stock: 10
     },
@@ -22,7 +22,7 @@ const productos = [
         precio: 25000,
         descripcion: "Tumbler termico 24 horas frio calor",
         id: 3,
-        imagen: "src/componentes/Imagenes/VasitoHeader.png",
+        imagen: "../Imagenes/VasitoHeader.png",
         idCat: "vasito",
         stock: 10
     },
@@ -31,7 +31,7 @@ const productos = [
         precio: 25000,
         descripcion: "Tumbler termico 24 horas frio calor",
         id: 4,
-        imagen: "src/componentes/Imagenes/BotellitaHeader.png",
+        imagen: "../Imagenes/BotellitaHeader.png",
         idCat: "botella",
         stock: 10
     },
@@ -46,7 +46,7 @@ export const getProductos = () => {
 }
 
 export const getUnProducto = (id) => {
-    return new Promise ((resolve) => {
+    return new Promise (resolve => {
         setTimeout(() => {
             const producto = productos.find(item => item.id === id)
             resolve(producto)
