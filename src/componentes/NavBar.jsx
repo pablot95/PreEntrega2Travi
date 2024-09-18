@@ -1,19 +1,23 @@
 import React from 'react'
 import CartWidget from './CartWidget'
 import "./NavBar.css"
+import { Link, NavLink } from 'react-router-dom'
 
 const NavBar = () => {
     
 
     return (
     <header>
-        <h1><a href="#"><img src="src/componentes/Imagenes/TianaLogo.png" alt="" /></a></h1>
+        <Link to="/">
+        <h1><img src="src/componentes/Imagenes/TianaLogo.png" alt="" /></h1>
+        </Link>
+
         <nav>
             <ul>
-                <li>Tumblers</li>
-                <li>Termos</li>
-                <li>Vasitos</li>
-                <li>Botellas</li>
+                <li><NavLink to="/categoria/tumbler">Tumblers</NavLink></li>
+                <li><NavLink to="/categoria/termo">Termos</NavLink></li>
+                <li><NavLink to="/categoria/vasito">Vasitos</NavLink></li>
+                <li><NavLink to="/categoria/botella">Botellas</NavLink></li>
             </ul>
         </nav>
         <CartWidget/>
