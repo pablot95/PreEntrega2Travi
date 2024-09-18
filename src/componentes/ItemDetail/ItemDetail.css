@@ -8,14 +8,17 @@
     text-align: center; 
     transition: transform 0.2s ease-in-out;
     margin-left: 14rem;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
-
+.contenedorItem p{
+    padding: 5px;
+}
 .contenedorItem:hover{
     transform: translateY(-5px);
 }
 
 .contenedorItem img{
-    width: 35vw;
+    width: 200px;
+    height: auto;
 }

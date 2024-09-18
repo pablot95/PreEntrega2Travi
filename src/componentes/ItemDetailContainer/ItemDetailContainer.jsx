@@ -9,10 +9,11 @@ const ItemDetailContainer = () => {
 
     const {idItem} = useParams()
 
-    useEffect(()=>{
-        getUnProducto(idItem)
-            .then(respuesta => setProducto(respuesta))
-    }, [idItem])
+    useEffect(() => {
+      const idNumerico = Number(idItem);
+      getUnProducto(idNumerico) 
+        .then(respuesta => setProducto(respuesta));
+    }, [idItem]);
 
 
 

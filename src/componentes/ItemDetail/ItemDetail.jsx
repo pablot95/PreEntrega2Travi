@@ -2,7 +2,7 @@ import React from 'react'
 import "./ItemDetail.css"
 
 
-const ItemDetail = ({id, nombre, precio, imagen}) => {
+const ItemDetail = ({id, nombre, precio, imagen, descripcion}) => {
 
 
   return (
@@ -11,7 +11,7 @@ const ItemDetail = ({id, nombre, precio, imagen}) => {
         <h2>{nombre} </h2>
         <p>${precio} </p>
         <p>ID: {id} </p>
-        <p>No logro hacer que se vea cada producto segun el id</p>
+        <p>{descripcion}</p>
 
 
     </div>
